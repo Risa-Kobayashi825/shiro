@@ -399,6 +399,7 @@ contact us
     cursor: pointer;
     font-size: 16px;
     color: #333;
+    text-decoration: none;
 }
 .contact-button__icon {
     position: absolute;
