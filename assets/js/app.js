@@ -4,7 +4,7 @@
 
 const menuButton = document.querySelector('.js-menu__button');
 const menuList = document.querySelector('.js-menu-list');
-const menuItem = document.querySelector('.js-menu-list__item');
+const menuItem = document.querySelectorAll('.js-menu-list__item');
 
 
 // ヘッダーのメニューボタンをクリックするとアコーディオンが開閉する
@@ -14,7 +14,7 @@ menuButton.addEventListener('click', function(){
     });
 
 // ヘッダーのリンクをクリックするとアコーディオンが閉じる
-menuItem.addEventListener('click',function(){
+menuList.addEventListener('click',function(){
     menuButton.classList.remove('active');
     menuList.classList.remove('active');
 });
