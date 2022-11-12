@@ -74,7 +74,6 @@ body {
 /*
 ハンバーガーメニュー開いた時のヘッダーメニュー
 */
-
 .js-menu-list {
     position: fixed;
     top: 0;
@@ -128,7 +127,6 @@ body {
 /*
 各セクションのセンタリング&全セクション共有で使うクラス
 */
-
 .concept {
     width: 100%;
     padding: 75px 0px 35px;
@@ -207,8 +205,6 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* top: 36%;
-    left: 28%; */
     line-height: 1;
     margin: 0;
     width: 45%;
@@ -229,13 +225,10 @@ body {
 
     .keyv-heading {
         top: 40%;
-        /* left: 35%; */
         width: 30%;
     }
-
     .keyv-lead {
         top: 59%;
-        /* left: 35%; */
         width: 30%;
         font-size: 22px;
     }
@@ -363,7 +356,7 @@ shop information
 }
 .shop-info-list__text {
     padding-left: 20px;
-    border-left: 1px solid #2b2b2b;
+    border-left: 1px solid #333;
 }
 iframe {
     width: 100%;
@@ -402,9 +395,10 @@ contact us
     background-color: white;
     padding: 16px 48px 16px 72px;
     line-height: 1;
-    border: 1px solid black;
+    border: 1px solid #333;
     cursor: pointer;
     font-size: 16px;
+    color: #333;
 }
 .contact-button__icon {
     position: absolute;
