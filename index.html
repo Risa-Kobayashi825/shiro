@@ -8,6 +8,9 @@
     <meta name="description" content="白いお花専門のオーダーメイドショップです。"> 
     <meta name="keywords" content="お花,フラワー,白いお花,オーダーメイド,贈り物,ギフト,ウェディング">
 
+    <link rel="icon" href="./assets/images/favicon.ico" id="favicon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon-180x180.png">
+
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/sanitize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -18,26 +21,43 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
+    <header>
+        <div class="js-menu">
+            <div class="js-menu__button">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="js-menu-list #click">
+            <div class="js-menu-list__item"><a href="#concept">Concept</a></div>
+            <div class="js-menu-list__item"><a href="#works">Works</a></div>
+            <div class="js-menu-list__item"><a href="#florist">Florist</a></div>
+            <div class="js-menu-list__item"><a href="#shop-information">Shop information</a></div>
+            <div class="js-menu-list__item"><a href="#contact-us">Contact us</a></div>
+        </div>
+    </header>
     <main>
         <div class="keyv">
             <picture>
-                <source media="(min-width: 767px)" srcset="./assets/images/keyv_pc.jpg" >
-                <img class="u-img" src="./assets/images/keyv_sp.jpg" alt="shiro">
+                <source media="(min-width: 767px)"
+                        srcset="./assets/images/keyv_pc.jpg"
+                        width="2560"
+                        height="1240"
+                >
+                <img class="u-img"
+                     src="./assets/images/keyv_sp.jpg"
+                     decoding="async"
+                     width="1500"
+                     height="1420"
+                >
             </picture>
-            <div class="js-menu">
-                <div class="js-menu__button">
-                    <span></span><span></span><span></span>
-                </div>
-            </div>
-            <div class="js-menu-list #click">
-                <div class="js-menu-list__item"><a href="#concept">Concept</a></div>
-                <div class="js-menu-list__item"><a href="#works">Works</a></div>
-                <div class="js-menu-list__item"><a href="#florist">Florist</a></div>
-                <div class="js-menu-list__item"><a href="#shop-information">Shop information</a></div>
-                <div class="js-menu-list__item"><a href="#contact-us">Contact us</a></div>
-            </div>
             <h1 class="keyv-heading">
-                <img class="u-img" src="./assets/images/logo.png" alt="shiro">
+                <img class="u-img"
+                     src="./assets/images/logo.png"
+                     alt="shiro"
+                     decoding="async"
+                     width="317"
+                     height="129"
+                >
             </h1>
             <span class="keyv-lead">- White flower shop -</span>
         </div>
@@ -48,7 +68,13 @@
                     色とりどりの花束も綺麗だけれど、洗練された「白」の美しさを感じてほしい。<br>
                     「白」に対する愛から生まれた静寂な時間が流れる店へ、ぜひお越しください。
                 </p>
-                <img class="u-img" src="./assets/images/concept.jpg" alt="concept">
+                <img class="u-img"
+                     src="./assets/images/concept.jpg"
+                     alt="concept"
+                     loading="lazy"
+                     width="1920"
+                     height="826"
+                >
             </div>
         </section>
         <section class="works" id="works">
@@ -61,7 +87,13 @@
                 <div class="works-list">
                     <dl class="works-list__item">
                         <dt class="works-list__img">
-                            <img class="u-img" src="./assets/images/works-gift.jpg" alt="gift">
+                            <img class="u-img"
+                                 src="./assets/images/works-gift.jpg"
+                                 alt="gift"
+                                 loading="lazy"
+                                 width="1600"
+                                 height="1620"
+                            >
                         </dt>
                         <dd class="works-list__title">Gift</dd>
                         <dd class="works-list__text">花束をお送りしたいお相手、伝えたいお気持ちに合わせたプレゼント用花束のアレンジメントをさせていただきます。
@@ -70,14 +102,26 @@
                     </dl>
                     <dl class="works-list__item">
                         <dt class="works-list__img">
-                            <img class="u-img" src="./assets/images/works-decoration.jpg" alt="decoration">
+                            <img class="u-img"
+                                 src="./assets/images/works-decoration.jpg"
+                                 alt="decoration"
+                                 loading="lazy"
+                                 width="840"
+                                 height="1260"
+                            >
                         </dt>
                         <dd class="works-list__title">Decoration</dd>
                         <dd class="works-list__text">お写真を彩るお花を一輪から販売。一定期間のご契約で定期的にご自宅へ配送させていただくこともできます。</dd>
                     </dl>
                     <dl class="works-list__item">
                         <dt class="works-list__img">
-                            <img class="u-img" src="./assets/images/works-wedding.jpg" alt="Wedding">
+                            <img class="u-img"
+                                 src="./assets/images/works-wedding.jpg"
+                                 alt="Wedding"
+                                 loading="lazy"
+                                 width="1600"
+                                 height="2416"
+                            >
                         </dt>
                         <dd class="works-list__title">Wedding</dd>
                         <dd class="works-list__text">ウェディングドレスに合わせたブーケや式場の雰囲気に合う装花をご提案。
@@ -86,7 +130,13 @@
                     </dl>
                     <dl class="works-list__item">
                         <dt class="works-list__img">
-                            <img class="u-img" src="./assets/images/works-foryourself.jpg" alt="foryourself">
+                            <img class="u-img"
+                                 src="./assets/images/works-foryourself.jpg"
+                                 alt="foryourself"
+                                 loading="lazy"
+                                 width="840"
+                                 height="822"
+                            >
                         </dt>
                         <dd class="works-list__title">For yourself</dd>
                         <dd class="works-list__text">お部屋の雰囲気やライフスタイルをお聞きしてご自宅用の花束をご提案し、少しでも長く咲かせるコツもお教えします。
@@ -106,8 +156,18 @@
                     <dl class="florist-list__item">
                         <dt>
                             <picture>
-                                <source media="(min-width: 767px)" srcset="./assets/images/florist-shiyu_pc.jpg" >
-                                <img class="u-img" src="./assets/images/florist-shiyu_sp.jpg" alt="shiyu">
+                                <source media="(min-width: 767px)"
+                                        srcset="./assets/images/florist-shiyu_pc.jpg"
+                                        width="600"
+                                        height="800"
+                                >
+                                <img class="u-img"
+                                     src="./assets/images/florist-shiyu_sp.jpg"
+                                     alt="shiyu"
+                                     loading="lazy"
+                                     width="1360"
+                                     height="866"
+                                >
                             </picture>
                         </dt>
                         <dd class="florist-list__title">Shiyu</dd>
@@ -116,8 +176,18 @@
                     <dl class="florist-list__item">
                         <dt>
                             <picture>
-                                <source media="(min-width: 767px)" srcset="./assets/images/florist-mao_pc.jpg" >
-                                <img class="u-img" src="./assets/images/florist-mao_sp.jpg" alt="mao">
+                                <source media="(min-width: 767px)"
+                                        srcset="./assets/images/florist-mao_pc.jpg"
+                                        width="600"
+                                        height="800"
+                                >
+                                <img class="u-img"
+                                     src="./assets/images/florist-mao_sp.jpg"
+                                     alt="mao"
+                                     loading="lazy"
+                                     width="1360"
+                                     height="866"
+                                >
                             </picture>
                         </dt>
                         <dd class="florist-list__title">Mao</dd>
@@ -126,8 +196,18 @@
                     <dl class="florist-list__item">
                         <dt>
                             <picture>
-                                <source media="(min-width: 767px)" srcset="./assets/images/florist-omichan_pc.jpg" >
-                                <img class="u-img" src="./assets/images/florist-omichan_sp.jpg" alt="omichan">
+                                <source media="(min-width: 767px)"
+                                        srcset="./assets/images/florist-omichan_pc.jpg"
+                                        width="600"
+                                        height="800"
+                                >
+                                <img class="u-img"
+                                     src="./assets/images/florist-omichan_sp.jpg"
+                                     alt="omichan"
+                                     loading="lazy"
+                                     width="1360"
+                                     height="866"
+                                >
                             </picture>
                         </dt>
                         <dd class="florist-list__title">Omichan</dd>
@@ -179,10 +259,10 @@
             </div>
         </section>
         <hr>
-        <footer class="footer">
-            <small>Copyright ©Shiro All Rights Reaerved.</small>
-        </footer>
     </main>
+    <footer class="footer">
+        <small>Copyright ©Shiro All Rights Reaerved.</small>
+    </footer>
     <script src="./assets/js/app.js"></script>
 </body>
 </html>
