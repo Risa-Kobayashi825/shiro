@@ -207,7 +207,9 @@ body {
     transform: translate(-50%, -50%);
     line-height: 1;
     margin: 0;
-    width: 45%;
+    font-weight: normal;
+    font-size: 80px;
+    color: #fff;
 }
 .keyv-lead {
     position: absolute;
@@ -224,8 +226,8 @@ body {
 @media screen and (min-width:767px) {
 
     .keyv-heading {
-        top: 40%;
-        width: 30%;
+        top: 45%;
+        font-size: 120px;
     }
     .keyv-lead {
         top: 59%;
